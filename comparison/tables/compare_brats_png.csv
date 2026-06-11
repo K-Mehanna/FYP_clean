@@ -1,0 +1,21 @@
+method,k,macro_f1,std,config,chance
+Baseline,2,0.4889,0.0900,end_to_end_2d (resnet50),0.5000
+Baseline,3,0.2776,0.0920,end_to_end_2d (resnet50),0.3333
+Baseline,4,0.1843,0.0595,end_to_end_2d (resnet50),0.2500
+Baseline,5,0.1852,0.0626,end_to_end_2d (resnet50),0.2000
+Slot+AA-CBR (Fully supervised),2,0.6481,0.0920,large_v2/sum/tournament_flat,0.5000
+Slot+AA-CBR (Fully supervised),3,0.4358,0.0663,large_v2/sum/tournament_flat,0.3333
+Slot+AA-CBR (Fully supervised),4,0.2968,0.1320,large_v2/sum/tournament_flat,0.2500
+Slot+AA-CBR (Fully supervised),5,0.2659,0.0706,large/sum/flat,0.2000
+Slot+AA-CBR (Weakly supervised),2,0.6386,0.1301,large_v2/sum/tournament_tree,0.5000
+Slot+AA-CBR (Weakly supervised),3,0.3976,0.1138,large/sum/flat,0.3333
+Slot+AA-CBR (Weakly supervised),4,0.2523,0.0982,small/sum/tournament_tree,0.2500
+Slot+AA-CBR (Weakly supervised),5,0.2629,0.1318,large/sum/ordinal,0.2000
+Slot+AA-CBR (Weakly supervised (spatial dice matching)),2,0.4738,0.1343,small_v2/max/ordinal,0.5000
+Slot+AA-CBR (Weakly supervised (spatial dice matching)),3,0.4030,0.1238,large_v2/sum/flat,0.3333
+Slot+AA-CBR (Weakly supervised (spatial dice matching)),4,0.3386,0.0962,small_v2/sum/tournament_tree,0.2500
+Slot+AA-CBR (Weakly supervised (spatial dice matching)),5,0.2444,0.1532,large/sum/flat,0.2000
+GT+AA-CBR,2,0.6193,0.1142,small/max/tournament_flat,0.5000
+GT+AA-CBR,3,0.2838,0.0695,large_v2/max/flat,0.3333
+GT+AA-CBR,4,0.3083,0.0366,small/max/ordinal,0.2500
+GT+AA-CBR,5,0.1841,0.1069,large/sum/tournament_flat,0.2000
